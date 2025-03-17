@@ -1,0 +1,165 @@
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.titre{
+    background-color: cornflowerblue;
+    width: 350vh;
+    display: inline-flex;
+    gap: 70PX;
+    align-items: center; 
+}
+.titre p{
+    padding-left: 15%;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(1, 1, 78);
+}
+.titre h2{
+    font-family: cursive;
+    color: rgb(2, 61, 2);
+}
+
+.menu{
+    background-color: rgb(2, 2, 44);
+    margin-top: -1.3%;
+    width: 350vh;
+    height: 80px; 
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    padding: 15px;
+    margin-left: 10%;
+}
+.menu ul li{
+   padding: 0 45px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu ul li:hover{
+    background-color: blue;
+    border-radius: 5px;
+    height: 25px;
+}
+img{
+    width: 650px;
+    margin: 30px;
+    height: 300px;
+    
+}
+main{
+    background-color: rgb(176, 200, 243);
+    width: 350vh;
+}
+.master{
+    background-color: dodgerblue;
+    border-radius: 5px;
+    width: 900px;
+    height: 200px;
+}
+.master h2{
+    margin-left: 10%;
+    color: #fff;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.master h4{
+    margin-left: 35%;
+    color: rgb(1, 1, 68);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.forma{
+    background-color: midnightblue;
+    border-radius: 10px;
+    width: 950px;
+    margin-left: 20%;
+    padding-top: 1%;
+}
+.forma h1{
+    margin-left: 33%;
+    color: #fff;
+}
+.forma h2{
+    margin-left: 46%;
+}
+.forma h2 a{
+    text-decoration: none;
+    color: rgb(230, 40, 15);
+}
+.lm{
+    margin-left: 60%;
+    font-size: 10px;
+    background-color: black;
+    color: #fff;
+    width: 450px;
+}   
+.lm p{
+    padding-left: 75px;
+}
+.lm h5{
+    padding-left: 20px;
+}
+body{
+    background-image: url(./pixel1.png);
+    background-size: cover;
+}
+.lm{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.sub-menu1{
+    display: none;
+
+}
+.menu ul li:hover .sub-menu1{
+    display: block;
+    background-color: blue;
+    position: absolute;
+    margin-top: 0.5%;
+    margin-left: -3%;
+    width: 400px;
+    height: 240px;
+}
+.sub-menu1 ul{
+    font-size: 15px;
+    margin-left: -2%;
+    display: block;
+}
+.sub-menu1 ul li{
+    padding: 6px;
+    
+}
+.sub-menu1 p{
+    color: #fff;
+    padding-left: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub-menu1 ol li{
+    padding: 4px;  
+}
+.sub-menu1 ol{
+    color: chartreuse;
+}
+footer{
+    background-color: cornflowerblue;
+    color: #fff;
+    display: inline-flex;
+    width: 850px;
+}
+footer ul{
+    display: inline-flex;
+    list-style: none;
+    gap: 60px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
